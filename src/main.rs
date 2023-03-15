@@ -1,5 +1,6 @@
 fn main() {
     let a: f32 = 0.7568419;
+    println!("{:?}", a);
 
     let tuple = (a.sin(), a.cos());
     println!("tuple.1 {:x}", tuple.0.to_bits());

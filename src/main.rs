@@ -1,7 +1,6 @@
 fn main() {
     let a: f32 = 0.7568419;
     println!("{:?}", a);
-    println!("{:x}", a.to_bits());
 
     let sin = a.sin();
     println!("sin {:x}", sin.to_bits());
